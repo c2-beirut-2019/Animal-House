@@ -45,6 +45,6 @@ Ce systeme sera capable de traduire les besoins suivants:
 Ce projet se compose de:
 
 - 1 personne pour les interfaces de programmation pour application web et mobile, les interfaces de programmation pour les CRUD et l’interface utilisateur de CRUD.
-- 1 personne pour l’application mobile (Android).
-- 1 personne pour l’application mobile (IOS).
-- 1 personne pour l’application web.
+- 1 personne pour l’application mobile ([Android](https://github.com/c2-beirut-2019/Android-Project)).
+- 1 personne pour l’application mobile ([IOS](https://github.com/c2-beirut-2019/iOS-Project)).
+- 1 personne pour l’application [Web](https://github.com/c2-beirut-2019/Web-Project).
