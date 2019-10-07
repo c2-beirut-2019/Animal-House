@@ -40,6 +40,18 @@ Ce systeme sera capable de traduire les besoins suivants:
 - Accéder aux rendez-vous dans l’application mobile et web pour un client enregitré seulement.
 - Identification pour medecin dans l’application mobile et web pour acceder à leur rendez-vous.
 
+> Architecture D'infrastructure
+
+![](AWS-Architecture.png)
+
+- Amazon Route 53 est un service Web DNS (Cloud Name System) hautement disponible et évolutif.
+- Amazon CloudFront est un service de réseau de distribution de contenu rapide (CDN) qui transmet de manière sécurisée des données, des vidéos, des applications et des API à des clients du monde entier avec une latence faible et des vitesses de transfert élevées.
+- Amazon Simple Storage Service (Amazon S3) est un service de stockage d'objets offrant une évolutivité, une disponibilité des données, une sécurité et des performances inégalées sur le marché. Cela signifie que les clients de toutes tailles et de tous secteurs peuvent l'utiliser pour stocker et protéger toute quantité de données dans divers cas d'utilisation, tels que sites Web, applications mobiles, sauvegarde et restauration, archivage, applications d'entreprise, appareils IoT et analyses de données volumineuses. Amazon S3 fournit des fonctionnalités de gestion conviviales vous permettant d'organiser vos données et de configurer des contrôles d'accès finement paramétrés pour répondre à vos exigences commerciales, organisationnelles et de conformité spécifiques. Amazon S3 est conçu pour 99,999999999% (11 9) de durabilité
+- Amazon Virtual Private Cloud (Amazon VPC) vous permet de provisionner une section du nuage AWS isolée logiquement dans laquelle vous pouvez lancer des ressources AWS dans un réseau virtuel que vous définissez. Vous avez un contrôle total sur votre environnement de réseau virtuel, y compris la sélection de votre propre plage d'adresses IP, la création de sous-réseaux et la configuration de tables de routage et de passerelles réseau. Vous pouvez utiliser à la fois IPv4 et IPv6 dans votre VPC pour un accès sécurisé et facile aux ressources et aux applications.
+- Elastic Load Balancing automatically distributes incoming application traffic across multiple Amazon EC2 instances. It enables you to achieve greater levels of fault tolerance in your applications, seamlessly providing the required amount of load balancing capacity needed to distribute application traffic. Elastic Load Balancing detects unhealthy instances and automatically reroutes traffic to healthy instances until the unhealthy instances have been restored. Elastic Load Balancing can also be used in an Amazon Virtual Private Cloud (“VPC”) to distribute traffic between application tiers in a virtual network that you define.
+- Amazon Elastic Compute Cloud (Amazon EC2) est un service Web qui fournit une capacité de calcul sécurisée et redimensionnable dans le cloud. Il est conçu pour faciliter l'informatique en nuage sur le Web aux développeurs. La simple interface de service Web d’Amazon EC2 vous permet d’obtenir et de configurer une capacité avec un minimum de friction. Il vous offre un contrôle complet de vos ressources informatiques et vous permet de fonctionner sur l'environnement informatique éprouvé d'Amazon.
+- Les groupes de sécurité Amazon RDS vous permettent de gérer l'accès réseau à vos instances Amazon RDS. Avec les groupes de sécurité, vous spécifiez des ensembles d'adresses IP à l'aide de la notation CIDR et seul le trafic réseau provenant de ces adresses est reconnu par votre instance Amazon RDS.
+
 > Ressources:
 
 Ce projet se compose de:
